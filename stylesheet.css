@@ -11,7 +11,7 @@ p {
   font-size: 12px;
 }
 
-div {
+div.intro {
 color: white;
 border-style: dotted;
 border-width: 2px;
@@ -20,9 +20,8 @@ height: 100px;
 
 }
 
-ol {list-style-type: upper-alha;}
+ol {list-style-type: upper-alpha; color: white;}
 
-}
+ul {list-style-type: square; color: white;}
 
-ul {list-style-type: square;}
 </style>
