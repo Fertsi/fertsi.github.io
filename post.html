@@ -35,80 +35,49 @@
             </div>
         </nav>
         <!-- Otsikko-->
-        <header class="masthead" style="background-image: url('assets/img/kotisivu.jpg')">
+        <header class="masthead" style="background-image: url('assets/img/blogikuva.jpg')">
             <div class="container position-relative px-4 px-lg-5">
                 <div class="row gx-4 gx-lg-5 justify-content-center">
                     <div class="col-md-10 col-lg-8 col-xl-7">
-                        <div class="site-heading">
-                            <h1>Oma blogi</h1>
-                            <span class="subheading">Avaus Front-End kehitykseeni</span>
+                        <div class="post-heading">
+                            <h1>Sukellus Front-End kehitykseeni</h1>
+                            <h2 class="subheading">HTML, CSS, Bootstrap....?</h2>
+                            <span class="meta">
+                                Postannut
+                                <a href="#!">Fernando</a>
+                                Joulukuussa, 2021
+                            </span>
                         </div>
                     </div>
                 </div>
             </div>
         </header>
         <!-- Pääsisältö-->
-        <div class="container px-4 px-lg-5">
-            <div class="row gx-4 gx-lg-5 justify-content-center">
-                <div class="col-md-10 col-lg-8 col-xl-7">
-                    <!-- Esinäkemys-->
-                    <div class="post-preview">
-                        <a href="post.html">
-                            <h2 class="post-title">Aloitukseni HTML kuvauskielen parissa.</h2>
-                            <h3 class="post-subtitle">Sukellus Front-Endin maailmaan alusta asti</h3>
-                        </a>
-                        <p class="post-meta">
-                            Postannut
-                            <a href="#!">Fernando</a>
-                            Joulukuussa, 2021
+        <article class="mb-4">
+            <div class="container px-4 px-lg-5">
+                <div class="row gx-4 gx-lg-5 justify-content-center">
+                    <div class="col-md-10 col-lg-8 col-xl-7">
+                        <p>Front-End kehitykseni alkoi vuodesta 2015. Puhtaasta kiinnostuksesta kokeilin ilmaiskursseja Codeacademyssä, taka-ajatuksena oli tuleva urani mahdollisena Full-Stack kehittäjänä.</p>
+                        <p>Front-Endistä on helpompi aloittaa, kun saa kuntoon Sivuston teon perusteet, rakenteet ja kaikki toiminnot kuten animaatiot. </p>
+                        <p>Olen vielä aika ruosteessa pitkän tauon jälkeen, enkä ole tietenkään antanut parasta näiden kehitykselle.</p>
+                        <a><img class="img-fluid" src="assets/img/htmlbasic.jpg" alt="..."></a>
+                        <h2 class="section-heading">CSS</h2>
+                        <p>Perehdyin seuravaaksi CSS:ään (Cascading Style Sheets), joka on verkkosivuille kehitetty tyylisivu. Sillä pystyin määrittelemään omille sivuille useita eri tyyliohjeita, joka helpottaa paljon kun ne voidana laittaa yhden säännöstön alle.</p>
+                        <a><img class="img-fluid" src="assets/img/cssbasics.jpg" alt="..."></a>
+                        <h2 class="section-heading">Bootstrap ja Wireframe</h2>
+                        <p>Lopuksi otin käyttöön Bootstrapin, joka on avoimen lähden CSS-kehys. Sen avulla pystyin (ja kuka vaa muukin) luomaan paljon nopeammin nättejä ja toimivia sivustoja, sekä lisätä JavaScriptiä omiin sivustoihini.</p>
+                        <a><img class="img-fluid" src="assets/img/bootstrap.jpg" alt="..."></a>
+                        <span class="caption text-muted">Apuna käytetty kolmannen osapuolen sivustoja helpompaan suunnitteluun.</span>
+                        <p>Ennen tätä, tuli leikittyä Wireframen eli verkkosivuston lankakehityksen kanssa. Se on tavallaan niin kuin rakennusten pohjapiirrustus.</p>
+                        <a><img class="img-fluid" src="assets/img/wireframe.png" alt="..."></a>
+                        <p>
+                            Täältä löytyy <a href="https://github.com/Fertsi/fertsi.github.io">Githubini</a>, en ole tosiaan vielä ladannut mitään korkean tason teoksia sinne "vielä".
+                            
                         </p>
                     </div>
-                    <!-- Jako-->
-                    <hr class="my-4" />
-                    <!-- Esinäkemys-->
-                    <div class="post-preview">
-                        <a href="post.html"><h2 class="post-title">Jatkoa CSS-maailmaan ja omien sivujeni ulkonäkö</h2></a>
-                        <p class="post-meta">
-                            Postannut
-                            <a href="#!">Fernando</a>
-                            Tammikuussa, 2022
-                        </p>
-                    </div>
-                    <!-- Jako-->
-                    <hr class="my-4" />
-                    <!-- Esinäkemys-->
-                    <div class="post-preview">
-                        <a href="post.html">
-                            <h2 class="post-title">Bootstrap ja Wireframe</h2>
-                            <h3 class="post-subtitle">Vivahdus valmiista bootstrap CSS kehyksestä sekä lankakehyksestä</h3>
-                        </a>
-                        <p class="post-meta">
-                            Postannut
-                            <a href="#!">Fernando</a>
-                            Helmikuussa, 2022
-                        </p>
-                    </div>
-                    <!-- Jako-->
-                    <hr class="my-4" />
-                    <!-- Esinäkemys-->
-                    <div class="post-preview">
-                        <a href="post.html">
-                            <h2 class="post-title">Table ja Form</h2>
-                            <h3 class="post-subtitle">Taulukoiden ja formien tärkeys käyttäjien informaation prosessoinnissa.</h3>
-                        </a>
-                        <p class="post-meta">
-                            Postannut
-                            <a href="#!">Fernando</a>
-                            Maaliskuu, 2022
-                        </p>
-                    </div>
-                    <!-- Jako-->
-                    <hr class="my-4" />
-                    <!-- Sivupainike, esimerkki-->
-                    <div class="d-flex justify-content-end mb-4"><a class="btn btn-primary text-uppercase" href="#!">Vanhemmat postaukset →</a></div>
                 </div>
             </div>
-        </div>
+        </article>
         <!-- Alapalkki-->
         <footer class="border-top">
             <div class="container px-4 px-lg-5">
